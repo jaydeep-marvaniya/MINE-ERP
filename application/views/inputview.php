@@ -1,0 +1,53 @@
+<?php include_once 'header.php';?>
+<?php  include_once 'sidebar.php'; ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>INPUT DAILY DATA</title>
+	<style type="text/css">
+		a, a:link, a:visited {
+			color: #444;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #000;
+		}
+		.left {
+			float: left;
+		}
+		#menu {
+			width: 100%;
+		}
+		#g_render {
+			width: 80%;
+		}
+		li {
+			margin-bottom: 1em;
+		}
+	</style>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("jquery", "1.4.4");
+	</script>
+	<script type="text/javascript" src="http://www.highcharts.com/js/highcharts.js"></script>
+</head>
+<body>
+	<div id="menu" class="left">
+		<ol>
+			<li><?php echo anchor($home, 'basic example')?></li>
+			<li><?php echo anchor($home.'categories', 'Advanced example')?></li>
+			<li><?php echo anchor($home.'template', 'Options from template file')?></li>
+			<li><?php echo anchor($home.'active_record', 'multiples chart and Database result')?></li>
+			<li><?php echo anchor($home.'pie', 'Pie grah with callback functions')?></li>
+			<li><?php echo anchor($home.'data_get', 'outputing json or array')?></li>
+			<li><?php echo anchor($home.'getchart', 'Quantity example')?></li>
+		</ol>
+	</div>
+
+	<div id="g_render"  class="left">
+	
+		
+	</div>
+</body>
+</html>
