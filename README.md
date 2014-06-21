@@ -1,6 +1,6 @@
 #MINE-ERP
 ========
-An ERP tool for Mining Business. basically a Freelancing project for a live clint done on behalf of web development course project
+An ERP tool for Mining Business. basically a Freelancing project for a live client developed on behalf of web development course project
 
 #Technology Used
 
